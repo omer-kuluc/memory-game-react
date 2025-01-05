@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
   user-select: none;
   color: #FCFCFC;
   padding: 6.34px 13.27px 6.19px;
-  /* color: transparent; */
+  color: transparent;
   border-style: none;
 }
 
