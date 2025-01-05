@@ -14,6 +14,8 @@ function App() {
   const [cards, setCards] = useState(()=> shuffleCards(datas));
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+
+  //kartların karıştırıldığı yer
   function shuffleCards(datas) {
     const shuffled = datas.concat(datas).sort(() => Math.random() - 0.5);
     return shuffled.map(value => ({
