@@ -57,6 +57,10 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 .container {
   padding-block: 24px;
   place-items: center;
@@ -200,6 +204,29 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   gap: 16px;
 }
+
+.modal-content button {
+  text-align: center;
+  background-color: #DFE7EC;
+  color : #304859;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.32px;
+  padding-block: 13px;
+  border-radius: 26px;
+  border-style: none;
+
+}
+
+.modal-content {
+
+  .modal-restart-btn {
+    background-color: #FDA214;
+    color : #FCFCFC;
+  }
+}
+
+
 
 @media (width >= 768px) {
 

@@ -77,7 +77,7 @@ function App() {
           handleMoves();
           setTimeout(() => {
             setSelectedButtons([]); // Kartları kapat
-          }, 1250); // 1 san
+          }, 1000); // 1 san
         }
       }
     }
@@ -179,7 +179,7 @@ function ModalPage ({onCloseModal, onRestartClick}) {
     <>
       <div className="modal-overlay">
         <div className="modal-content">
-          <button onClick={onRestartClick}>Restart</button>
+          <button className="modal-restart-btn" onClick={onRestartClick}>Restart</button>
           <button onClick={onRestartClick}>New Game</button>
           <button onClick={onCloseModal}>Resume Game</button>
         </div>
