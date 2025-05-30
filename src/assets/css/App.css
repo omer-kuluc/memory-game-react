@@ -133,7 +133,7 @@ button {
   user-select: none;
   color: #FCFCFC;
   padding: 6.34px 13.27px 6.19px;
-  /* color: transparent; */
+  color: transparent;
   border-style: none;
 }
 
