@@ -1,8 +1,96 @@
-# React + Vite
+#  Memory Game – React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Klasik eşleştirme oyununun modern ve sade bir React versiyonu.  
+Kullanıcıların hafızasını test etmesine olanak tanıyan bu oyun, eğlenceli bir arayüzle sunulmuştur.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Canlı Demo
+
+👉 [https://memory-game-react-chi.vercel.app/](https://memory-game-react-chi.vercel.app/)
+
+---
+
+##  Proje Özeti
+
+**Memory Game**, oyuncunun aynı görselleri eşleştirerek ilerlediği, klasik kart oyunu mekanizmasına sahip bir web uygulamasıdır.  
+Oyuncular, kartları çevirerek doğru çiftleri bulmaya çalışır.  
+Oyun tamamlandığında süre ve yapılan hamle sayısı ekranda gösterilir.
+
+---
+
+##  Özellikler
+
+###  Kart Eşleştirme Mekanizması
+
+- Her oyun başladığında kartlar rastgele dizilir.
+- Aynı iki kart seçildiğinde eşleşme gerçekleşir ve kartlar açık kalır.
+- Farklı kartlar seçildiğinde otomatik olarak tekrar kapanır.
+
+###  Süre ve Hamle Sayacı
+
+- Oyun başladığı anda süre işlemeye başlar.
+- Yapılan her çift denemesi bir hamle olarak sayılır.
+- Oyun sonunda toplam süre ve toplam hamle sayısı kullanıcıya gösterilir.
+
+###  Yeni Oyun Başlatma
+
+- Eşleşmeler tamamlandığında "Play Again" butonuyla sıfırlanarak yeni oyun başlatılır.
+- Yeni oyunda kartlar yeniden karıştırılır ve süre/hamle sıfırlanır.
+
+###  Duyarlı ve Temiz Arayüz
+
+- Kartların konumu ve tasarımı mobil, tablet ve masaüstü cihazlara uyum sağlar.
+- Minimal ve dikkat dağıtmayan bir kullanıcı deneyimi sunar.
+
+---
+
+##  Kullanılan Teknolojiler
+
+- React  
+- JavaScript (ES6+)  
+- CSS3  
+
+---
+
+##  Kurulum ve Çalıştırma
+
+### 1. Depoyu Klonla
+
+```bash
+git clone https://github.com/kullanici-adi/memory-game-react.git
+```
+
+### 2. Dizin Değiştir
+
+```bash
+cd memory-game-react
+```
+
+### 3. Gerekli Paketleri Kur
+
+```bash
+npm install
+```
+
+### 4. Uygulamayı Başlat
+
+```bash
+npm run dev
+```
+
+Uygulama varsayılan olarak [http://localhost:5173](http://localhost:5173) adresinde çalışacaktır.
+
+---
+
+##  Hedefler
+
+- Hafıza gelişimini destekleyen sade bir kart oyunu sunmak  
+- Süre ve hamle takibiyle oyuncuyu teşvik etmek  
+- Yeniden oynanabilirliği ve sadeliği birleştiren kullanıcı dostu bir deneyim sağlamak  
+
+---
+
+> Bu uygulama, temel React bilgileriyle interaktif oyun geliştirmeye başlamak isteyenler için örnek bir projedir.
