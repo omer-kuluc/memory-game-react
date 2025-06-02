@@ -29,11 +29,20 @@ Oyun tamamlandığında süre ve yapılan hamle sayısı ekranda gösterilir.
 - Aynı iki kart seçildiğinde eşleşme gerçekleşir ve kartlar açık kalır.
 - Farklı kartlar seçildiğinde otomatik olarak tekrar kapanır.
 
+![image](https://github.com/user-attachments/assets/a34256ea-92fb-4196-9dab-02ad652b987b)
+
+
 ###  Süre ve Hamle Sayacı
 
 - Oyun başladığı anda süre işlemeye başlar.
 - Yapılan her çift denemesi bir hamle olarak sayılır.
 - Oyun sonunda toplam süre ve toplam hamle sayısı kullanıcıya gösterilir.
+
+
+![image](https://github.com/user-attachments/assets/e5b3c9ce-b63a-4a78-9336-d49b8d89ae14)
+
+![image](https://github.com/user-attachments/assets/16bcd453-98e5-4407-894c-a4103aec7709)
+
 
 ###  Yeni Oyun Başlatma
 
