@@ -69,7 +69,7 @@ Oyun tamamlandığında süre ve yapılan hamle sayısı ekranda gösterilir.
 ### 1. Depoyu Klonla
 
 ```bash
-git clone https://github.com/kullanici-adi/memory-game-react.git
+git clone https://github.com/omer-kuluc/memory-game-react.git
 ```
 
 ### 2. Dizin Değiştir
